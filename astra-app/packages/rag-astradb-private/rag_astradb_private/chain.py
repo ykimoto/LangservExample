@@ -36,6 +36,7 @@ all_splits = text_splitter.split_documents(data)
 # vectorstore = Chroma.from_documents(
 # vectorstore = AstraDB.from_documents(
 #    documents=all_splits,
+# To load data, uncomment the above two lines and comment out the line below. However, this will take a long time to load and may timeout before starting the server.
 vectorstore = AstraDB(
     embedding=embedding,
     collection_name="rag_private",
