@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "rag_astradb_private"
+version = "0.1.0"
+description = "RAG implementation with RAGStack (including Langchain) and AstraDB, and using Ollama as local LLM."
+authors = ["ykimoto <yy.kimoto@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ragstack-ai = "^0.4.0"
+langserve = {extras = ["all"], version = "^0.0.37"}
+
+[tool.poetry.group.dev.dependencies]
+langchain-cli = "^0.0.20"
+fastapi = "^0.108.0"
+uvicorn = "^0.25.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

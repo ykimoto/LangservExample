@@ -1,0 +1,7 @@
+# pip3 install -r requirements.txt
+ragstack-ai
+fastapi
+uvicorn
+langserve[all]
+langchain-cli
+llama-cpp-python

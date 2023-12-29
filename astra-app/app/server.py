@@ -13,7 +13,7 @@ async def redirect_root_to_docs():
 
 
 # Edit this to add the chain you want to add
-add_routes(app, rag_astradb_private_chain, path="/rag-astradb-private")
+add_routes(app, rag_astradb_private_chain, path="/rag_astradb_private")
 
 if __name__ == "__main__":
     import uvicorn
