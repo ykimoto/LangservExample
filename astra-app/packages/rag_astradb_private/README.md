@@ -1,5 +1,4 @@
-
-# rag-astra-private
+# rag_astradb_private
 
 Based on RAG Chroma Private template from Langchain.
 
